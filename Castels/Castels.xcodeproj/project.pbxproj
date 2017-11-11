@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B17F65CC1FB77608005DC588 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17F65CB1FB77608005DC588 /* AppDelegate.swift */; };
+		B17F65CE1FB77608005DC588 /* CastlesCreation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17F65CD1FB77608005DC588 /* CastlesCreation.swift */; };
+		B17F65D11FB77608005DC588 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B17F65CF1FB77608005DC588 /* Main.storyboard */; };
+		B17F65D31FB77608005DC588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B17F65D21FB77608005DC588 /* Assets.xcassets */; };
+		B17F65D61FB77608005DC588 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B17F65D41FB77608005DC588 /* LaunchScreen.storyboard */; };
+		B17F65E11FB77608005DC588 /* CastelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17F65E01FB77608005DC588 /* CastelsTests.swift */; };
+		B17F65EC1FB77608005DC588 /* CastelsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17F65EB1FB77608005DC588 /* CastelsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B17F65DD1FB77608005DC588 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B17F65C01FB77608005DC588 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B17F65C71FB77608005DC588;
+			remoteInfo = Castels;
+		};
+		B17F65E81FB77608005DC588 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B17F65C01FB77608005DC588 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B17F65C71FB77608005DC588;
+			remoteInfo = Castels;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B17F65C81FB77608005DC588 /* Castels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Castels.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B17F65CB1FB77608005DC588 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B17F65CD1FB77608005DC588 /* CastlesCreation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastlesCreation.swift; sourceTree = "<group>"; };
+		B17F65D01FB77608005DC588 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B17F65D21FB77608005DC588 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B17F65D51FB77608005DC588 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B17F65D71FB77608005DC588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B17F65DC1FB77608005DC588 /* CastelsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CastelsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B17F65E01FB77608005DC588 /* CastelsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastelsTests.swift; sourceTree = "<group>"; };
+		B17F65E21FB77608005DC588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B17F65E71FB77608005DC588 /* CastelsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CastelsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B17F65EB1FB77608005DC588 /* CastelsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastelsUITests.swift; sourceTree = "<group>"; };
+		B17F65ED1FB77608005DC588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B17F65C51FB77608005DC588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17F65D91FB77608005DC588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17F65E41FB77608005DC588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B17F65BF1FB77608005DC588 = {
+			isa = PBXGroup;
+			children = (
+				B17F65CA1FB77608005DC588 /* Castels */,
+				B17F65DF1FB77608005DC588 /* CastelsTests */,
+				B17F65EA1FB77608005DC588 /* CastelsUITests */,
+				B17F65C91FB77608005DC588 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B17F65C91FB77608005DC588 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B17F65C81FB77608005DC588 /* Castels.app */,
+				B17F65DC1FB77608005DC588 /* CastelsTests.xctest */,
+				B17F65E71FB77608005DC588 /* CastelsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B17F65CA1FB77608005DC588 /* Castels */ = {
+			isa = PBXGroup;
+			children = (
+				B17F65CB1FB77608005DC588 /* AppDelegate.swift */,
+				B17F65CD1FB77608005DC588 /* CastlesCreation.swift */,
+				B17F65CF1FB77608005DC588 /* Main.storyboard */,
+				B17F65D21FB77608005DC588 /* Assets.xcassets */,
+				B17F65D41FB77608005DC588 /* LaunchScreen.storyboard */,
+				B17F65D71FB77608005DC588 /* Info.plist */,
+			);
+			path = Castels;
+			sourceTree = "<group>";
+		};
+		B17F65DF1FB77608005DC588 /* CastelsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B17F65E01FB77608005DC588 /* CastelsTests.swift */,
+				B17F65E21FB77608005DC588 /* Info.plist */,
+			);
+			path = CastelsTests;
+			sourceTree = "<group>";
+		};
+		B17F65EA1FB77608005DC588 /* CastelsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B17F65EB1FB77608005DC588 /* CastelsUITests.swift */,
+				B17F65ED1FB77608005DC588 /* Info.plist */,
+			);
+			path = CastelsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B17F65C71FB77608005DC588 /* Castels */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B17F65F01FB77608005DC588 /* Build configuration list for PBXNativeTarget "Castels" */;
+			buildPhases = (
+				B17F65C41FB77608005DC588 /* Sources */,
+				B17F65C51FB77608005DC588 /* Frameworks */,
+				B17F65C61FB77608005DC588 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Castels;
+			productName = Castels;
+			productReference = B17F65C81FB77608005DC588 /* Castels.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B17F65DB1FB77608005DC588 /* CastelsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B17F65F31FB77608005DC588 /* Build configuration list for PBXNativeTarget "CastelsTests" */;
+			buildPhases = (
+				B17F65D81FB77608005DC588 /* Sources */,
+				B17F65D91FB77608005DC588 /* Frameworks */,
+				B17F65DA1FB77608005DC588 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B17F65DE1FB77608005DC588 /* PBXTargetDependency */,
+			);
+			name = CastelsTests;
+			productName = CastelsTests;
+			productReference = B17F65DC1FB77608005DC588 /* CastelsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B17F65E61FB77608005DC588 /* CastelsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B17F65F61FB77608005DC588 /* Build configuration list for PBXNativeTarget "CastelsUITests" */;
+			buildPhases = (
+				B17F65E31FB77608005DC588 /* Sources */,
+				B17F65E41FB77608005DC588 /* Frameworks */,
+				B17F65E51FB77608005DC588 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B17F65E91FB77608005DC588 /* PBXTargetDependency */,
+			);
+			name = CastelsUITests;
+			productName = CastelsUITests;
+			productReference = B17F65E71FB77608005DC588 /* CastelsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B17F65C01FB77608005DC588 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Govind Lokhande";
+				TargetAttributes = {
+					B17F65C71FB77608005DC588 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					B17F65DB1FB77608005DC588 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B17F65C71FB77608005DC588;
+					};
+					B17F65E61FB77608005DC588 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B17F65C71FB77608005DC588;
+					};
+				};
+			};
+			buildConfigurationList = B17F65C31FB77608005DC588 /* Build configuration list for PBXProject "Castels" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B17F65BF1FB77608005DC588;
+			productRefGroup = B17F65C91FB77608005DC588 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B17F65C71FB77608005DC588 /* Castels */,
+				B17F65DB1FB77608005DC588 /* CastelsTests */,
+				B17F65E61FB77608005DC588 /* CastelsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B17F65C61FB77608005DC588 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17F65D61FB77608005DC588 /* LaunchScreen.storyboard in Resources */,
+				B17F65D31FB77608005DC588 /* Assets.xcassets in Resources */,
+				B17F65D11FB77608005DC588 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17F65DA1FB77608005DC588 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17F65E51FB77608005DC588 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B17F65C41FB77608005DC588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17F65CE1FB77608005DC588 /* CastlesCreation.swift in Sources */,
+				B17F65CC1FB77608005DC588 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17F65D81FB77608005DC588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17F65E11FB77608005DC588 /* CastelsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17F65E31FB77608005DC588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17F65EC1FB77608005DC588 /* CastelsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B17F65DE1FB77608005DC588 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B17F65C71FB77608005DC588 /* Castels */;
+			targetProxy = B17F65DD1FB77608005DC588 /* PBXContainerItemProxy */;
+		};
+		B17F65E91FB77608005DC588 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B17F65C71FB77608005DC588 /* Castels */;
+			targetProxy = B17F65E81FB77608005DC588 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B17F65CF1FB77608005DC588 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B17F65D01FB77608005DC588 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B17F65D41FB77608005DC588 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B17F65D51FB77608005DC588 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B17F65EE1FB77608005DC588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B17F65EF1FB77608005DC588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B17F65F11FB77608005DC588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Castels/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Govind-Lokhande.Castels";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B17F65F21FB77608005DC588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Castels/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Govind-Lokhande.Castels";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B17F65F41FB77608005DC588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CastelsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Govind-Lokhande.CastelsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Castels.app/Castels";
+			};
+			name = Debug;
+		};
+		B17F65F51FB77608005DC588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CastelsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Govind-Lokhande.CastelsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Castels.app/Castels";
+			};
+			name = Release;
+		};
+		B17F65F71FB77608005DC588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CastelsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Govind-Lokhande.CastelsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Castels;
+			};
+			name = Debug;
+		};
+		B17F65F81FB77608005DC588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CastelsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Govind-Lokhande.CastelsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Castels;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B17F65C31FB77608005DC588 /* Build configuration list for PBXProject "Castels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B17F65EE1FB77608005DC588 /* Debug */,
+				B17F65EF1FB77608005DC588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B17F65F01FB77608005DC588 /* Build configuration list for PBXNativeTarget "Castels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B17F65F11FB77608005DC588 /* Debug */,
+				B17F65F21FB77608005DC588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B17F65F31FB77608005DC588 /* Build configuration list for PBXNativeTarget "CastelsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B17F65F41FB77608005DC588 /* Debug */,
+				B17F65F51FB77608005DC588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B17F65F61FB77608005DC588 /* Build configuration list for PBXNativeTarget "CastelsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B17F65F71FB77608005DC588 /* Debug */,
+				B17F65F81FB77608005DC588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B17F65C01FB77608005DC588 /* Project object */;
+}
